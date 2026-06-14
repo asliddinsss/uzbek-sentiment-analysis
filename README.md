@@ -1,4 +1,4 @@
-# 🇺🇿 Uzbek Sentiment Analysis
+# Uzbek Sentiment Analysis
 ### 3-Class Sentiment Classifier for Uzbek Text using Fine-tuned Transformers
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue?style=flat-square&logo=python)
@@ -11,7 +11,7 @@
 
 ---
 
-## 📌 Problem Statement
+## Problem Statement
 
 Sentiment analysis is one of the most commercially valuable NLP tasks — powering everything from brand monitoring to political polling. For English, dozens of production-ready models exist. For Uzbek, almost nothing does.
 
@@ -29,7 +29,7 @@ This project addresses that gap directly:
 
 ---
 
-## 📊 Results
+## Results
 
 | Model | Accuracy | Macro F1 | Notes |
 |---|---|---|---|
@@ -50,7 +50,7 @@ This project addresses that gap directly:
 
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 ```
 uzbek-sentiment-analysis/
@@ -88,7 +88,7 @@ uzbek-sentiment-analysis/
 
 ---
 
-## 📦 Dataset
+## Dataset
 
 A custom multi-domain Uzbek sentiment dataset — one of the first of its kind:
 
@@ -108,7 +108,7 @@ The full dataset is released publicly under CC BY 4.0.
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone the repo
 ```bash
@@ -129,7 +129,7 @@ python src/predict.py --text "Bu restoran juda yaxshi, taomlar mazali edi!"
 Output:
 ```
 Text:       Bu restoran juda yaxshi, taomlar mazali edi!
-Prediction: 😊 Positive
+Prediction: Positive
 Confidence: 94.2%
   Negative:  2.1%
   Neutral:   3.7%
@@ -150,7 +150,7 @@ python src/train.py --model xlmroberta --epochs 5 --batch_size 16
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
 **XLM-RoBERTa-base** with a domain-aware classification head:
 
@@ -175,7 +175,7 @@ FC(256 → 3) → Softmax
 
 ---
 
-## 📈 Training Details
+## Training Details
 
 | Parameter | Value |
 |---|---|
@@ -191,7 +191,7 @@ FC(256 → 3) → Softmax
 
 ---
 
-## 🌍 Real-World Applications
+## Real-World Applications
 
 - **Brand monitoring:** Track public sentiment toward Uzbek companies and products on social media
 - **Political analysis:** Gauge public reaction to government announcements in real time
@@ -209,7 +209,7 @@ This is **Asliddin Builds #03** — an ongoing series of ML projects applied to 
 
 ---
 
-## 🔮 Future Work
+## Future Work
 
 - [ ] Expand dataset to 20,000+ samples
 - [ ] Aspect-level sentiment (not just document-level)
@@ -218,7 +218,7 @@ This is **Asliddin Builds #03** — an ongoing series of ML projects applied to 
 
 ---
 
-## 👤 Author
+## Author
 
 **Asliddin** — Grade 9, Presidential School, Namangan, Uzbekistan
 AI/ML Researcher | APIO Finalist 2025 | TEDx Speaker
